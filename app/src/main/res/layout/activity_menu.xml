@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/crema"
+    tools:context=".MenuActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/portales" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MENU"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textColor="@color/verde"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/btn_cold_drinks"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/round_button"
+        android:text="COLD DRINKS"
+        android:textColor="@color/white"
+        app:backgroundTint="@null"/>
+
+    <Button
+        android:id="@+id/btn_hot_drinks"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/round_button"
+        android:text="HOT DRINKS"
+        android:textColor="@color/white"
+        app:backgroundTint="@null"/>
+
+    <Button
+        android:id="@+id/btn_sweets"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/round_button"
+        android:text="SWEETS"
+        android:textColor="@color/white"
+        app:backgroundTint="@null"/>
+
+    <Button
+        android:id="@+id/btn_salties"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/round_button"
+        android:text="SALTIES"
+        android:textColor="@color/white"
+        app:backgroundTint="@null"/>
+
+    <Button
+        android:id="@+id/btn_combos"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/round_button"
+        android:text="COMBOS"
+        android:textColor="@color/white"
+        app:backgroundTint="@null" />
+
+    <Button
+        android:id="@+id/btn_custom"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/round_button"
+        android:text="CUSTOM"
+        android:textColor="@color/white"
+        app:backgroundTint="@null" />
+
+</LinearLayout>
