@@ -29,68 +29,68 @@
         android:layout_marginBottom="10dp"/>
 
     <Button
-        android:id="@+id/btn_cold_drinks"
+        android:id="@+id/btn_antojitos"
         android:layout_width="250dp"
         android:layout_height="60dp"
         android:layout_gravity="center"
         android:layout_marginTop="10dp"
         android:background="@drawable/round_button"
-        android:text="COLD DRINKS"
+        android:text="ANTOJITOS"
         android:textColor="@color/white"
         app:backgroundTint="@null"/>
 
     <Button
-        android:id="@+id/btn_hot_drinks"
+        android:id="@+id/btn_especialidades"
         android:layout_width="250dp"
         android:layout_height="60dp"
         android:layout_gravity="center"
         android:layout_marginTop="10dp"
         android:background="@drawable/round_button"
-        android:text="HOT DRINKS"
+        android:text="ESPECIALIDADES"
         android:textColor="@color/white"
         app:backgroundTint="@null"/>
 
     <Button
-        android:id="@+id/btn_sweets"
+        android:id="@+id/btn_combinations"
         android:layout_width="250dp"
         android:layout_height="60dp"
         android:layout_gravity="center"
         android:layout_marginTop="10dp"
         android:background="@drawable/round_button"
-        android:text="SWEETS"
+        android:text="COMBITATIONS"
         android:textColor="@color/white"
         app:backgroundTint="@null"/>
 
     <Button
-        android:id="@+id/btn_salties"
+        android:id="@+id/btn_tortas"
         android:layout_width="250dp"
         android:layout_height="60dp"
         android:layout_gravity="center"
         android:layout_marginTop="10dp"
         android:background="@drawable/round_button"
-        android:text="SALTIES"
+        android:text="TORTAS"
         android:textColor="@color/white"
         app:backgroundTint="@null"/>
 
     <Button
-        android:id="@+id/btn_combos"
+        android:id="@+id/btn_sopas"
         android:layout_width="250dp"
         android:layout_height="60dp"
         android:layout_gravity="center"
         android:layout_marginTop="10dp"
         android:background="@drawable/round_button"
-        android:text="COMBOS"
+        android:text="SOPAS"
         android:textColor="@color/white"
         app:backgroundTint="@null" />
 
     <Button
-        android:id="@+id/btn_custom"
+        android:id="@+id/btn_drinks"
         android:layout_width="250dp"
         android:layout_height="60dp"
         android:layout_gravity="center"
         android:layout_marginTop="10dp"
         android:background="@drawable/round_button"
-        android:text="CUSTOM"
+        android:text="DRINKS"
         android:textColor="@color/white"
         app:backgroundTint="@null" />
 
